@@ -146,15 +146,15 @@
             this.gbHasilBaca = new System.Windows.Forms.GroupBox();
             this.label48 = new System.Windows.Forms.Label();
             this.dgv2 = new System.Windows.Forms.DataGridView();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.button18 = new System.Windows.Forms.Button();
-            this.btnAstm = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnSaveSetelan = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.button18 = new System.Windows.Forms.Button();
+            this.btnAstm = new System.Windows.Forms.Button();
             this.wzPage5 = new AeroWizard.WizardPage();
             this.panel15 = new System.Windows.Forms.Panel();
             this.gbChart2 = new System.Windows.Forms.GroupBox();
@@ -206,13 +206,19 @@
             this.panel23 = new System.Windows.Forms.Panel();
             this.axAcroPDF1 = new AxAcroPDFLib.AxAcroPDF();
             this.panel20 = new System.Windows.Forms.Panel();
-            this.panel19 = new System.Windows.Forms.Panel();
+            this.button23 = new System.Windows.Forms.Button();
             this.textBox32 = new System.Windows.Forms.TextBox();
             this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.label77 = new System.Windows.Forms.Label();
+            this.label74 = new System.Windows.Forms.Label();
+            this.label75 = new System.Windows.Forms.Label();
+            this.label76 = new System.Windows.Forms.Label();
+            this.label73 = new System.Windows.Forms.Label();
             this.textBox28 = new System.Windows.Forms.TextBox();
+            this.textBox31 = new System.Windows.Forms.TextBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.panel19 = new System.Windows.Forms.Panel();
             this.btnSaveFormHasil = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -231,12 +237,6 @@
             this.btnSaveArsip = new System.Windows.Forms.Button();
             this.label26 = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.label73 = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
-            this.label75 = new System.Windows.Forms.Label();
-            this.label76 = new System.Windows.Forms.Label();
-            this.label77 = new System.Windows.Forms.Label();
-            this.button23 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.wz)).BeginInit();
             this.wzPage1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -277,8 +277,8 @@
             this.panel10.SuspendLayout();
             this.gbHasilBaca.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv2)).BeginInit();
-            this.panel9.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel9.SuspendLayout();
             this.wzPage5.SuspendLayout();
             this.panel15.SuspendLayout();
             this.gbChart2.SuspendLayout();
@@ -399,6 +399,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox3.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -411,6 +412,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -515,6 +517,7 @@
             // 
             // textBox7
             // 
+            this.textBox7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox7.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox7.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -527,6 +530,7 @@
             // 
             // textBox5
             // 
+            this.textBox5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox5.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -540,6 +544,7 @@
             // 
             // textBox8
             // 
+            this.textBox8.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox8.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox8.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -552,6 +557,7 @@
             // 
             // textBox6
             // 
+            this.textBox6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox6.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox6.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -564,6 +570,7 @@
             // 
             // textBox4
             // 
+            this.textBox4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox4.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -599,10 +606,10 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Abel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(679, 13);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(61, 21);
+            this.label17.Size = new System.Drawing.Size(74, 20);
             this.label17.TabIndex = 2;
             this.label17.Text = "PAGE-1";
             // 
@@ -610,7 +617,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(8, 13);
+            this.label1.Location = new System.Drawing.Point(1, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(254, 21);
             this.label1.TabIndex = 1;
@@ -618,14 +625,15 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(4, 41);
+            this.textBox1.Location = new System.Drawing.Point(20, 41);
             this.textBox1.MaxLength = 1000;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(1007, 16);
+            this.textBox1.Size = new System.Drawing.Size(991, 16);
             this.textBox1.TabIndex = 1;
             // 
             // btnLoad
@@ -714,6 +722,7 @@
             this.dgv1.AllowUserToDeleteRows = false;
             this.dgv1.AllowUserToResizeRows = false;
             this.dgv1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgv1.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.dgv1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgv1.Location = new System.Drawing.Point(10, 0);
             this.dgv1.Name = "dgv1";
@@ -909,10 +918,10 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Abel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(943, 60);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(61, 21);
+            this.label18.Size = new System.Drawing.Size(74, 20);
             this.label18.TabIndex = 3;
             this.label18.Text = "PAGE-2";
             // 
@@ -1525,10 +1534,10 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Abel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(808, 7);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(61, 21);
+            this.label19.Size = new System.Drawing.Size(74, 20);
             this.label19.TabIndex = 3;
             this.label19.Text = "PAGE-3";
             this.label19.UseWaitCursor = true;
@@ -1646,6 +1655,7 @@
             this.dgv2.AllowUserToDeleteRows = false;
             this.dgv2.AllowUserToResizeRows = false;
             this.dgv2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgv2.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.dgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgv2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgv2.Location = new System.Drawing.Point(3, 25);
@@ -1656,6 +1666,67 @@
             this.dgv2.ShowEditingIcon = false;
             this.dgv2.Size = new System.Drawing.Size(347, 319);
             this.dgv2.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.btnSaveSetelan);
+            this.panel4.Controls.Add(this.label20);
+            this.panel4.Controls.Add(this.label47);
+            this.panel4.Controls.Add(this.label9);
+            this.panel4.Controls.Add(this.label10);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1017, 63);
+            this.panel4.TabIndex = 1;
+            // 
+            // btnSaveSetelan
+            // 
+            this.btnSaveSetelan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSaveSetelan.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveSetelan.Location = new System.Drawing.Point(875, 3);
+            this.btnSaveSetelan.Name = "btnSaveSetelan";
+            this.btnSaveSetelan.Size = new System.Drawing.Size(139, 31);
+            this.btnSaveSetelan.TabIndex = 5;
+            this.btnSaveSetelan.Text = "Simpan Setelan";
+            this.btnSaveSetelan.UseVisualStyleBackColor = true;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(678, 20);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(74, 20);
+            this.label20.TabIndex = 3;
+            this.label20.Text = "PAGE-4";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(40, 41);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(208, 15);
+            this.label47.TabIndex = 1;
+            this.label47.Text = "perapian grafik (crop), setting VCursor";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(40, 11);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(128, 15);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "tampilan normal grafik";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(40, 26);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(281, 15);
+            this.label10.TabIndex = 1;
+            this.label10.Text = "tabel nilai cursor sensor, nilai detik (durasi/x-length)";
             // 
             // panel9
             // 
@@ -1688,67 +1759,6 @@
             this.btnAstm.TabIndex = 2;
             this.btnAstm.Text = "Lihat ASTM";
             this.btnAstm.UseVisualStyleBackColor = true;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.btnSaveSetelan);
-            this.panel4.Controls.Add(this.label20);
-            this.panel4.Controls.Add(this.label47);
-            this.panel4.Controls.Add(this.label9);
-            this.panel4.Controls.Add(this.label10);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1017, 63);
-            this.panel4.TabIndex = 1;
-            // 
-            // btnSaveSetelan
-            // 
-            this.btnSaveSetelan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSaveSetelan.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSaveSetelan.Location = new System.Drawing.Point(875, 3);
-            this.btnSaveSetelan.Name = "btnSaveSetelan";
-            this.btnSaveSetelan.Size = new System.Drawing.Size(139, 31);
-            this.btnSaveSetelan.TabIndex = 5;
-            this.btnSaveSetelan.Text = "Simpan Setelan";
-            this.btnSaveSetelan.UseVisualStyleBackColor = true;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Abel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(678, 20);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(61, 21);
-            this.label20.TabIndex = 3;
-            this.label20.Text = "PAGE-4";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(40, 41);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(208, 15);
-            this.label47.TabIndex = 1;
-            this.label47.Text = "perapian grafik (crop), setting VCursor";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(40, 11);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(128, 15);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "tampilan normal grafik";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(40, 26);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(281, 15);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "tabel nilai cursor sensor, nilai detik (durasi/x-length)";
             // 
             // wzPage5
             // 
@@ -1855,7 +1865,7 @@
             // 
             // textBox9
             // 
-            this.textBox9.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox9.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox9.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1880,7 +1890,7 @@
             // 
             // textBox18
             // 
-            this.textBox18.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox18.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox18.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox18.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1895,7 +1905,7 @@
             // 
             // textBox19
             // 
-            this.textBox19.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox19.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox19.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox19.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1910,7 +1920,7 @@
             // 
             // textBox20
             // 
-            this.textBox20.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox20.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox20.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1925,7 +1935,7 @@
             // 
             // textBox21
             // 
-            this.textBox21.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox21.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox21.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox21.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1950,7 +1960,7 @@
             // 
             // textBox22
             // 
-            this.textBox22.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox22.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox22.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox22.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1965,7 +1975,7 @@
             // 
             // textBox23
             // 
-            this.textBox23.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox23.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox23.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox23.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1990,7 +2000,7 @@
             // 
             // textBox24
             // 
-            this.textBox24.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox24.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox24.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox24.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2015,7 +2025,7 @@
             // 
             // textBox25
             // 
-            this.textBox25.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox25.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox25.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox25.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox25.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2040,7 +2050,7 @@
             // 
             // textBox26
             // 
-            this.textBox26.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox26.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox26.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox26.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox26.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2065,7 +2075,7 @@
             // 
             // textBox27
             // 
-            this.textBox27.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox27.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox27.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox27.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox27.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2291,10 +2301,10 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Abel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(675, 17);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(61, 21);
+            this.label21.Size = new System.Drawing.Size(74, 20);
             this.label21.TabIndex = 3;
             this.label21.Text = "PAGE-5";
             // 
@@ -2367,16 +2377,15 @@
             this.panel20.Size = new System.Drawing.Size(378, 404);
             this.panel20.TabIndex = 1;
             // 
-            // panel19
+            // button23
             // 
-            this.panel19.Controls.Add(this.btnSaveFormHasil);
-            this.panel19.Controls.Add(this.label24);
-            this.panel19.Controls.Add(this.label16);
-            this.panel19.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel19.Location = new System.Drawing.Point(0, 0);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(1017, 53);
-            this.panel19.TabIndex = 1;
+            this.button23.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button23.Location = new System.Drawing.Point(192, 222);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(139, 31);
+            this.button23.TabIndex = 4;
+            this.button23.Text = "Isi Hasil Analisis";
+            this.button23.UseVisualStyleBackColor = true;
             // 
             // textBox32
             // 
@@ -2402,29 +2411,55 @@
             this.textBox30.Size = new System.Drawing.Size(70, 23);
             this.textBox30.TabIndex = 9;
             // 
-            // textBox31
+            // label77
             // 
-            this.textBox31.BackColor = System.Drawing.SystemColors.Info;
-            this.textBox31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox31.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox31.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox31.Location = new System.Drawing.Point(192, 112);
-            this.textBox31.MaxLength = 1000;
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(70, 23);
-            this.textBox31.TabIndex = 9;
+            this.label77.AutoSize = true;
+            this.label77.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label77.Location = new System.Drawing.Point(88, 141);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(85, 21);
+            this.label77.TabIndex = 5;
+            this.label77.Text = "Size Tinggi";
             // 
-            // textBox29
+            // label74
             // 
-            this.textBox29.BackColor = System.Drawing.SystemColors.Info;
-            this.textBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox29.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox29.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox29.Location = new System.Drawing.Point(192, 54);
-            this.textBox29.MaxLength = 1000;
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(70, 23);
-            this.textBox29.TabIndex = 9;
+            this.label74.AutoSize = true;
+            this.label74.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label74.Location = new System.Drawing.Point(88, 112);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(81, 21);
+            this.label74.TabIndex = 5;
+            this.label74.Text = "Size Lebar";
+            // 
+            // label75
+            // 
+            this.label75.AutoSize = true;
+            this.label75.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label75.Location = new System.Drawing.Point(39, 21);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(190, 21);
+            this.label75.TabIndex = 5;
+            this.label75.Text = "Atur posisi Gambar Grafik";
+            // 
+            // label76
+            // 
+            this.label76.AutoSize = true;
+            this.label76.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label76.Location = new System.Drawing.Point(88, 83);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(67, 21);
+            this.label76.TabIndex = 5;
+            this.label76.Text = "Lokasi Y";
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label73.Location = new System.Drawing.Point(88, 54);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(67, 21);
+            this.label73.TabIndex = 5;
+            this.label73.Text = "Lokasi X";
             // 
             // textBox28
             // 
@@ -2438,6 +2473,18 @@
             this.textBox28.Size = new System.Drawing.Size(106, 23);
             this.textBox28.TabIndex = 9;
             // 
+            // textBox31
+            // 
+            this.textBox31.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox31.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBox31.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox31.Location = new System.Drawing.Point(192, 112);
+            this.textBox31.MaxLength = 1000;
+            this.textBox31.Name = "textBox31";
+            this.textBox31.Size = new System.Drawing.Size(70, 23);
+            this.textBox31.TabIndex = 9;
+            // 
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
@@ -2450,6 +2497,29 @@
             this.checkBox5.TabIndex = 6;
             this.checkBox5.Text = "Atur password PDF";
             this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // textBox29
+            // 
+            this.textBox29.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox29.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBox29.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox29.Location = new System.Drawing.Point(192, 54);
+            this.textBox29.MaxLength = 1000;
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(70, 23);
+            this.textBox29.TabIndex = 9;
+            // 
+            // panel19
+            // 
+            this.panel19.Controls.Add(this.btnSaveFormHasil);
+            this.panel19.Controls.Add(this.label24);
+            this.panel19.Controls.Add(this.label16);
+            this.panel19.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel19.Location = new System.Drawing.Point(0, 0);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(1017, 53);
+            this.panel19.TabIndex = 1;
             // 
             // btnSaveFormHasil
             // 
@@ -2465,10 +2535,10 @@
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Abel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(800, 14);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(61, 21);
+            this.label24.Size = new System.Drawing.Size(74, 20);
             this.label24.TabIndex = 3;
             this.label24.Text = "PAGE-6";
             // 
@@ -2537,7 +2607,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(56, 227);
             this.richTextBox1.Name = "richTextBox1";
@@ -2576,9 +2646,9 @@
             this.checkBox3.Location = new System.Drawing.Point(39, 106);
             this.checkBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(236, 21);
+            this.checkBox3.Size = new System.Drawing.Size(242, 21);
             this.checkBox3.TabIndex = 8;
-            this.checkBox3.Text = "3) File asli tabel rekam sensor (csv)";
+            this.checkBox3.Text = "3) File hasil pembacaan sensor (csv)";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // checkBox4
@@ -2588,9 +2658,9 @@
             this.checkBox4.Location = new System.Drawing.Point(39, 136);
             this.checkBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(337, 21);
+            this.checkBox4.Size = new System.Drawing.Size(364, 21);
             this.checkBox4.TabIndex = 9;
-            this.checkBox4.Text = "4) File pendukung Dokumetasi (foto/video/catatan)";
+            this.checkBox4.Text = "4) File Dokumetasi dan pendukung (foto/video/catatan)";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // label72
@@ -2639,10 +2709,10 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Abel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.Location = new System.Drawing.Point(785, 20);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(61, 21);
+            this.label26.Size = new System.Drawing.Size(74, 20);
             this.label26.TabIndex = 3;
             this.label26.Text = "PAGE-7";
             // 
@@ -2650,66 +2720,6 @@
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // label73
-            // 
-            this.label73.AutoSize = true;
-            this.label73.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.Location = new System.Drawing.Point(88, 54);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(67, 21);
-            this.label73.TabIndex = 5;
-            this.label73.Text = "Lokasi X";
-            // 
-            // label74
-            // 
-            this.label74.AutoSize = true;
-            this.label74.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label74.Location = new System.Drawing.Point(88, 112);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(81, 21);
-            this.label74.TabIndex = 5;
-            this.label74.Text = "Size Lebar";
-            // 
-            // label75
-            // 
-            this.label75.AutoSize = true;
-            this.label75.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label75.Location = new System.Drawing.Point(39, 21);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(190, 21);
-            this.label75.TabIndex = 5;
-            this.label75.Text = "Atur posisi Gambar Grafik";
-            // 
-            // label76
-            // 
-            this.label76.AutoSize = true;
-            this.label76.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.Location = new System.Drawing.Point(88, 83);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(67, 21);
-            this.label76.TabIndex = 5;
-            this.label76.Text = "Lokasi Y";
-            // 
-            // label77
-            // 
-            this.label77.AutoSize = true;
-            this.label77.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.Location = new System.Drawing.Point(88, 141);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(85, 21);
-            this.label77.TabIndex = 5;
-            this.label77.Text = "Size Tinggi";
-            // 
-            // button23
-            // 
-            this.button23.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.Location = new System.Drawing.Point(192, 222);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(139, 31);
-            this.button23.TabIndex = 4;
-            this.button23.Text = "Isi Hasil Analisis";
-            this.button23.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -2770,9 +2780,9 @@
             this.gbHasilBaca.ResumeLayout(false);
             this.gbHasilBaca.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv2)).EndInit();
-            this.panel9.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel9.ResumeLayout(false);
             this.wzPage5.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.gbChart2.ResumeLayout(false);
