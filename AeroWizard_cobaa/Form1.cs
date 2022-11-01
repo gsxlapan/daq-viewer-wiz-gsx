@@ -17,6 +17,7 @@ using ZedGraph;
 /*
  * 
  * Tes Commit first
+ * Tes fork & commit dari PC Kantor <akun: gsxlapan>
  */
 
 namespace AeroWizard_cobaa
