@@ -125,8 +125,8 @@ namespace AeroWizard_cobaa
                     progressBar1.Update();
                     Thread.Sleep(1);    //5 ms
                 }
-
             }
+
             /*
              * Bukak form windows baru
             if (wz.SelectedPage == wzPage6)
